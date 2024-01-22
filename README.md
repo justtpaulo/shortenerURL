@@ -6,7 +6,7 @@
 ## Instalação e Configuração
 
 ### Requisitos
-- Certifique-se de ter o [Composer](https://getcomposer.org/), [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalados em seu sistema.
+- Certifique-se de ter o [Composer](https://getcomposer.org/), [Node.js](https://nodejs.org/), [npm](https://www.npmjs.com/) e [MySQL](https://dev.mysql.com/downloads/) instalados em seu sistema.
 
 ### Passos de Instalação
 
@@ -42,7 +42,7 @@ php artisan serve
 npm run dev
 ```
 
-## Uso
+## Maneiras de Uso
 
 ### API
 - Para encurtar uma URL, faça uma requisição POST para /shorten com o seguinte corpo:
