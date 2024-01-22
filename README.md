@@ -71,7 +71,7 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
 
 ## Tecnologias Utilizadas
 
-- [Laravel Documentation]([https://nodejs.org/en/docs/](https://laravel.com/docs/10.x/readme))
+- [Laravel Documentation](https://laravel.com/docs/10.x/readme)
 - [Vue Documentation](https://vuejs.org/guide/introduction.html)
 - [TailwindCSS Documentation](https://tailwindcss.com/docs/installation)
 - [Axios Documentation](https://axios-http.com/docs/intro)
