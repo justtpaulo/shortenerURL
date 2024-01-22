@@ -1,12 +1,12 @@
 # ShortenerURL
 
 ## Descrição
-ShortenerURL é um projeto construído com Laravel, Vue e TailwindCSS para encurtar URLs de forma simples e eficiente.
+- ShortenerURL é um projeto construído com Laravel, Vue e TailwindCSS para encurtar URLs de forma simples e eficiente.
 
 ## Instalação e Configuração
 
 ### Requisitos
-Certifique-se de ter o [Composer](https://getcomposer.org/), [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalados em seu sistema.
+- Certifique-se de ter o [Composer](https://getcomposer.org/), [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalados em seu sistema.
 
 ### Passos de Instalação
 
@@ -45,7 +45,7 @@ npm run dev
 ## Uso
 
 ### API
-Para encurtar uma URL, faça uma requisição POST para /shorten com o seguinte corpo:
+- Para encurtar uma URL, faça uma requisição POST para /shorten com o seguinte corpo:
 
 ```json
 {
@@ -54,20 +54,31 @@ Para encurtar uma URL, faça uma requisição POST para /shorten com o seguinte 
 ```
 
 ### Web
-Acesse a aplicação pelo navegador e utilize o formulário na página inicial para encurtar URLs.
+- Acesse a aplicação pelo navegador e utilize o formulário na página inicial para encurtar URLs.
 
 ## Rotas
 
 ### API
-POST /shorten: Encurta uma URL.
+- `POST /shorten`: Encurta uma URL.
 
 ### Web
-GET /: Página inicial com formulário para encurtar URLs.
-GET /{code}: Redireciona para a URL original com base no código gerado.
+- `GET /`: Página inicial com formulário para encurtar URLs.
+- `GET /{code}`: Redireciona para a URL original com base no código gerado.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
 ## Tecnologias Utilizadas
-Laravel
-Vue
-TailwindCSS
-Axios
-Vite
+
+- [Laravel Documentation]([https://nodejs.org/en/docs/](https://laravel.com/docs/10.x/readme))
+- [Vue Documentation](https://vuejs.org/guide/introduction.html)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs/installation)
+- [Axios Documentation](https://axios-http.com/docs/intro)
+- [Vite Documentation](https://vitejs.dev/guide/)
+
+## Contato
+
+Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+
+E-mail: dev.pjose@gmail.com
