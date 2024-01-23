@@ -56,7 +56,7 @@ npm run dev
 ## Maneiras de Uso
 
 ### API
-- Para encurtar uma URL, faça uma requisição POST para /shorten com o seguinte corpo:
+- Para encurtar uma URL, faça uma requisição POST para `api/shorten` com o seguinte corpo:
 
 ```json
 {
@@ -70,7 +70,7 @@ npm run dev
 ## Rotas
 
 ### API
-- `POST /shorten`: Encurta uma URL.
+- `POST api/shorten`: Encurta uma URL.
 
 ### Web
 - `GET /`: Página inicial com formulário para encurtar URLs.
