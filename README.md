@@ -29,13 +29,24 @@ composer install
 npm install
 ```
 
-4. Execute as migrações do banco de dados (MYSQL):
+4. Certifique-se de que as credenciais do seu banco de dados MySQL esteja configurado corretamente no arquivo `.env`:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=seu_host_aqui
+DB_PORT=3306
+DB_DATABASE=shortener
+DB_USERNAME=seu_usuario_aqui
+DB_PASSWORD=sua_senha_aqui
+```
+
+5. Execute as migrações do banco de dados MySQL:
 
 ```bash
 php artisan migrate
 ```
 
-5. Inicie o servidor de desenvolvimento Laravel e Vite:
+6. Inicie o servidor de desenvolvimento Laravel e Vite:
 
 ```bash
 php artisan serve
